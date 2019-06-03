@@ -1,16 +1,16 @@
 # Boxes include navigation
 
-- title: Getting Started
-  desc: Get started fast with installation and theme setup instructions
-  icon: cog
-  doc: installation
+- title: GitHub
+  desc: Check out the code!
+  icon: github
+  url: "https://github.com/keystone-enclave"
 
-- title: Theme Features
-  desc: Lean about all the theme options, features and how to use them
-  icon: settings
-  doc: hero
-
-- title: Customization
-  desc: Get help or tailor the theme to your specific requirements
+- title: Documentation
+  desc: Documentation for Keystone Users
   icon: code
-  doc: customize
+  url: "https://docs.keystone-enclave.org"
+
+- title: Forum
+  desc: Subscribe to ask questions or get updates!
+  icon: user
+  url: "https://groups.google.com/forum/#!forum/keystone-enclave-forum"

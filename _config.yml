@@ -5,7 +5,7 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site title and description
-title:              Docs
+title:              Keystone
 description:        Documentation Jekyll theme.
 lang:               en
 
@@ -19,66 +19,66 @@ permalink:          /:title/
 url:                "https://docs.jekyll.plus"
 
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
-logo:               
+logo:
 
 navbar:
     sticky:         true
-    search:         true
-  
+    search:         false
+
 # Default author settings
 author:
-    name:           Pete Seth
-    title:          Lead Developer  
-    avatar:         avatar-tom.png
+    name:           Keystone Team
+    title:          Team
+    avatar:         logo-small.png
 
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
 authors:
     john:
       name:         John Brown
-      title:        Support     
+      title:        Support
       avatar:       avatar-john.png
     evan:
       name:         Evan Wells
-      title:        Support    
+      title:        Support
       avatar:       avatar-evan.png
     sara:
       name:         Sara Galen
-      title:        Lead Developer     
+      title:        Lead Developer
       avatar:       avatar-sara.png
     alex:
       name:         Alex Koch
-      title:        Design Engineer     
+      title:        Design Engineer
       avatar:       avatar-alex.png
     daniel:
       name:         Daniel Shultz
-      title:        Developer      
+      title:        Developer
       avatar:       avatar-daniel.png
     tom:
       name:         Tom Farrell
-      title:        Developer     
+      title:        Developer
       avatar:       avatar-tom.png
 
 # Social icons displayed in footer
 social:
     email:
     website:
-    facebook:       https://www.facebook.com/
+    facebook: #       https://www.facebook.com/
     flickr:
     dribbble:
-    github:
+      github: https://github.com/keystone-enclave
     googleplus:
-    instagram:      https://www.instagram.com/
+    instagram: #      https://www.instagram.com/
     linkedin:
     pinterest:
-    twitter:        https://twitter.com/
-    vimeo:          https://vimeo.com/
+    twitter:        #https://twitter.com/
+    vimeo:          #https://vimeo.com/
     youtube:
 
 # Share button
 share:
     post:           true # Display share buttons on a post page
     doc:            true # Display share buttons on a doc page
-    twitter:        username # Enable by adding Twitter handle 
+    twitter:        username # Enable by adding Twitter handle
     facebook:       true # Enable by setting true (Facebook handle not required)
 
 # Default footer image settings

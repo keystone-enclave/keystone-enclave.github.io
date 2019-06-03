@@ -1,0 +1,75 @@
+---
+layout: post
+title: Keystone is Open-Source!
+description: Keystone is now available at <a href="https://github.com/keystone-enclave">https://github.com/keystone-enclave</a>
+---
+
+Keystone is now open-source.
+
+Available now on [github](https://github.com/keystone-enclave).
+
+Keystone is an open-source secure enclave framework for RISC-V
+processors, and an on-going research project.
+
+Keystone follows the philosophy of open security. While there is no
+industry agreement on the "right solution" for everything, we believe
+open-source design allows the community to more effectively share
+insights, improve designs, and iterate on problems towards the goal of
+secure hardware enclaves.
+
+We are opening up development of Keystone now that we have a minimum
+set of features in place to allow application development and enclave
+research.
+
+## The Status of Keystone
+Currently, Keystone supports the features needed to perform secure
+boot, remote attestation, and execution of simple statically linked
+enclaves.
+
+We've built a demo application that is capable of remote attestation,
+secure channel establishment using libsodium, and simple secure
+computation on data sent over the channel. It is available as well at
+https://github.com/keystone-enclave/keystone-demo.
+
+We've tested Keystone on qemu (our default development target),
+[FireSim](https://fires.im/) as well as on the HiFive Unleashed
+development board. Other RISC-V platforms that support the minimum
+requirements should be easy to adapt to as well.
+
+## Upcoming in Keystone
+
+Keystone is still in its early stages, but we are excited about the
+research opportunities it presents.
+
+We've already started work on novel cache side-channel defenses for
+our HiFive development board. These defenses should allow enclaves
+executing on this platform to execute cache side-channel free with no
+changes to their user-space code. Not all platforms will have cache
+side-channels in their threat model, and could deploy Keystone without
+these mitigations.
+
+Additionally, we have an active project on formal verification of our
+Keystone Security Monitor and have recently verified that the hardware
+implementation of PMP matches the abstract specification.
+
+Keystone needs several platform features (hardware entropy source,
+secure root key storage/access) to provide confidentiality and
+integrity guarantees for deployment. We'll be working on making
+integration with different approaches to providing these features
+soon.
+
+## Contributing to Keystone
+
+Keystone enables the first secure enclave hardware research
+platform. If you are interested in working with Keystone in a research
+capacity, or even deploying it in the real world, we are excited to
+work with you.
+
+We are looking for collaborators in many areas: toolchain and compiler
+development, library development, build systems, hypervisor-type
+features, multi-threading models, and more.  Please see further
+documentation available on our github for topics and contribution
+instructions.
+
+
+Date: December 5, 2018

@@ -1,0 +1,11 @@
+---
+layout: post
+title: Dawn Song's Keynote at ASPLOS 2018 NSF Workshop on Interdisciplinary Research Challenges in Computer Systems
+description: Dawn Song gave a keynote about the open-source secure enclave at ASPLOS'18 NSF Workshop!
+---
+
+Dawn Song gave a nice keynote about the open-source secure enclave at [Workshop on Inter-Disciplinary Research Challenges in Computer Systems](https://www.asplos2018.org/grandchallenges/), which is NSF-Sponsored Community Vision Workshop co-located with ASPLOS 2018.
+
+Keynote: [Towards An Open-Source, Formally-Verified Secure Enclave](/files/dawn-nsf-2018-v5.pdf)
+
+Date: March 24, 2018
