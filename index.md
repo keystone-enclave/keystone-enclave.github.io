@@ -2,13 +2,13 @@
 layout: page
 width: expand
 hero:
-    title: Keystone
+    title: Keystone Enclave
     subtitle: An Open Framework for Architecting Trusted Execution Environments
     image: knowledge.svg
     search: false
 ---
 
-{% include boxes.html columns="3" title="Project Links" subtitle="" %}
+{% include boxes.html columns="2" title="" subtitle="" %}
 
 <!--{% include featured.html tag="featured" title="Popular Articles" subtitle="Selected featured articles to get you started fast in Jekyll" %}
 
@@ -18,4 +18,3 @@ hero:
 
 {% include videos.html columns="2" title="Talks and Papers" %}
 
-{% include team.html authors="dayeol, dkohlbre, shweta, dawn, krste" title="Team" subtitle="" %}

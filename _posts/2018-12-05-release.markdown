@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Keystone is Open-Source!
+author: dkohlbre
 description: Keystone is now available at <a href="https://github.com/keystone-enclave">https://github.com/keystone-enclave</a>
 ---
 

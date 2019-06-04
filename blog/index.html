@@ -24,13 +24,13 @@ title: Blog
                             {% if author.avatar contains 'http' %}
                                 {% assign domain = '' %}
                             {% else %}
-                                {% assign domain = site.uploads | absolute_url %}
+                                {% assign domain = site.uploads | relative_url %}
                             {% endif %}
                             <img class="uk-border-circle avatar" src="{{ domain }}{{ author.avatar }}" alt="{{ author.name }}">
                         </div>
                     {% endif %}
-                  
-                  
+
+
                     <div class="uk-width-expand">
                         <h3 class="uk-card-title uk-margin-remove-bottom">{{ post.title }}</h3>
                         <p class="uk-text-meta uk-margin-remove-top"><time datetime="{{ post.date | date_to_xmlschema }}">
@@ -41,7 +41,7 @@ title: Blog
                 </div>
             </div>
             <div class="uk-card-body">
-                {{ post.excerpt }}
+                {{ post.description }}
             </div>
             <div class="uk-card-footer">
                 <span class="uk-button uk-button-text">{{ site.data.translation[site.lang].read_more | default: "Read more" }} &rarr;</span>

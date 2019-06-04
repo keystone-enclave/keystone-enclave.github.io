@@ -61,12 +61,12 @@ social:
     facebook:
     flickr:
     dribbble:
-    github:
+    github: https://github.com/keystone-enclave
     googleplus:
     instagram:
     linkedin:
     pinterest:
-    twitter:
+    twitter: https://twitter.com/keystoneenclave
     vimeo:
     youtube:
 
@@ -79,8 +79,7 @@ share:
 
 # Default footer image settings
 footer:
-    copyright:      Made by a <a href="https://ivanchromjak.com/">human</a> somewhere on the planet earth.
-
+  copyright:      © 2019 Keystone Enclave. Powered by Jekyll and <a href="https://jekyllthemes.io/theme/docs-responsive-documentation-or-manual-jekyll-theme">Docs</a>
 # Disqus comments shortname, requires Disqus account https://disqus.com/
 disqus:
     shortname:      # 1234

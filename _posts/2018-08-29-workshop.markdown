@@ -1,6 +1,7 @@
 ---
 layout: post
 title: First Workshop on Building Open Source Secure Enclave
+author: dayeol
 description: "leading researchers and practitioners from Google, Facebook, Microsoft, Intel, ARM, UC Berkeley, MIT, UT Austin, Si-Five, Oasis Labs, and many others came together on building open source secure enclave"
 ---
 

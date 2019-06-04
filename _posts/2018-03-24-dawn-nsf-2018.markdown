@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Dawn Song's Keynote at ASPLOS 2018 NSF Workshop on Interdisciplinary Research Challenges in Computer Systems
+author: dayeol
 description: Dawn Song gave a keynote about the open-source secure enclave at ASPLOS'18 NSF Workshop!
 ---
 
