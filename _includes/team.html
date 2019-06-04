@@ -7,7 +7,7 @@
 
         {% if include.subtitle %}<p class="uk-text-lead uk-text-center">{{ include.subtitle | escape }}</p>{% endif %}
 
-        <div class="uk-margin-medium-top uk-grid-small uk-flex-center uk-text-center uk-margin-medium-top" data-uk-grid>
+        <div class="uk-margin-medium-top uk-grid-large uk-flex-center uk-text-center uk-margin-medium-top" data-uk-grid>
 
         {% if include.authors %}
             {% assign authors = include.authors | split: ", " %}
@@ -29,7 +29,7 @@
                         {% if item.avatar contains 'http' %}
                             {% assign domain = '' %}
                         {% else %}
-                            {% assign domain = site.uploads | absolute_url %}
+                            {% assign domain = site.uploads | relative_url %}
                         {% endif %}
 
                         <img class="uk-border-circle" src="{{ domain }}{{ item.avatar }}" alt="{{ item.name }}">

@@ -4,9 +4,6 @@ left:
   - title: Home
     url: /
 
-  - title: Docs
-    url: https://docs.keystone-enclave.org
-
   - title: Blog
     url: /blog/
 
@@ -14,3 +11,12 @@ left:
     url: /roadmap/
 
 # Navbar right menu navigation links
+right:
+  - title: "<span data-uk-icon='icon: code; ratio: 1.5'></span>&nbsp;Documentation"
+    url: https://docs.keystone-enclave.org
+
+  - title: "<span data-uk-icon='icon: github; ratio: 1.5'></span>&nbsp;GitHub"
+    url: https://github.com/keystone-enclave
+
+  - title: "<span data-uk-icon='icon: mail; ratio: 1.5'></span>&nbsp;Forum"
+    url: https://github.com/keystone-enclave

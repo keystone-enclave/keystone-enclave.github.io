@@ -1,9 +1,11 @@
 # Video include content
 
-- title: Jekyll Introduction
-  desc: Overview of the most popular static generator
-  url: https://youtu.be/T1itpPvFWHI
+- title: RISC-V Summit (Dec. 2018)
+  desc: Dayeol explains the first release of Keystone
+  url: https://youtu.be/lQu95We1Lmc
+  icon: youtube
 
-- title: Creating a post
-  desc: Lean how to publish your first post in Jekyll
-  url: https://youtu.be/gsYqPL9EFwQ
+- title: ASPLOS 2018 - NSF Workshop
+  desc: Dawn gives a keynote about the open-source secure enclave
+  url: uploads/dawn-nsf-2018-v5.pdf
+  icon: file-pdf

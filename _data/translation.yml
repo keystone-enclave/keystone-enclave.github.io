@@ -11,7 +11,7 @@ en:
   share_facebook:             "Share on Facebook"
   search_placeholder:         "Search for answers"
   search_no_results:          "No results found"
-  mobile_nav_docs:            "Docs"
+  #mobile_nav_docs:            "Docs"
   mobile_nav_site:            "Menu"
   contact_name:               "Name"
   contact_email:              "Email"
