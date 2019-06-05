@@ -15,11 +15,11 @@ left:
 
 # Navbar right menu navigation links
 right:
-  - title: "<span data-uk-icon='icon: code; ratio: 1.2'></span>&nbsp;Docs"
+  - title: "<span data-uk-icon='icon: file-text; ratio: 1.2'></span>&nbsp;Docs"
     url: https://docs.keystone-enclave.org
     button: default
 
-  - title: "<span data-uk-icon='icon: user; ratio: 1.2'></span>&nbsp;Forum"
+  - title: "<span data-uk-icon='icon: question; ratio: 1.2'></span>&nbsp;Forum"
     url: https://groups.google.com/forum/#!forum/keystone-enclave-forum
     button: default
 

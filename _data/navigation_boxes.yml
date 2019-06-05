@@ -7,12 +7,12 @@
 
 - title: Documentation
   desc: Documentation for Keystone Users
-  icon: code
+  icon: file-text
   url: "https://docs.keystone-enclave.org"
 
 - title: Forum
   desc: Subscribe to ask questions or get updates!
-  icon: user
+  icon: question
   url: "https://groups.google.com/forum/#!forum/keystone-enclave-forum"
 
 - title: Twitter
