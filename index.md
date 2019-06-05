@@ -2,9 +2,9 @@
 layout: page
 width: expand
 hero:
-    title: Keystone Enclave
+    title:
     subtitle: An Open Framework for Architecting Trusted Execution Environments
-    image: knowledge.svg
+    image: keystone-logo-D.png
     search: false
 ---
 

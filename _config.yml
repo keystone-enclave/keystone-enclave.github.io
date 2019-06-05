@@ -19,7 +19,7 @@ baseurl:            ""
 //url:                "https://docs.jekyll.plus"
 
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
-logo:
+logo: icon-transparent.png
 
 navbar:
     sticky:         true
@@ -29,7 +29,7 @@ navbar:
 author:
     name:           Keystone Team
     title:          Team
-    avatar:         logo-small.png
+    avatar:         icon-transparent.png
 
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
 authors:
