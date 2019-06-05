@@ -1,11 +1,16 @@
 # Video include content
 
-- title: RISC-V Summit (Dec. 2018)
+- title: RISC-V Summit 2018 (Talk)
   desc: Dayeol explains the first release of Keystone
   url: https://youtu.be/lQu95We1Lmc
   icon: youtube
 
-- title: ASPLOS 2018 - NSF Workshop
+- title: RISC-V Summit 2018 (Slides)
+  desc: Dayeol explains the first release of Keystone (slides)
+  url: files/keystone-risc-v-summit.pdf
+  icon: file-pdf
+
+- title: ASPLOS 2018 - NSF Workshop (Slides)
   desc: Dawn gives a keynote about the open-source secure enclave
-  url: uploads/dawn-nsf-2018-v5.pdf
+  url: files/dawn-nsf-2018-v5.pdf
   icon: file-pdf
