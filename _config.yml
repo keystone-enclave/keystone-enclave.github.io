@@ -37,22 +37,27 @@ authors:
       name:         Dayeol Lee
       title:        UC Berkeley (Ph.D. student)
       avatar:       team/dayeol.png
+      website:      https://dayeol.github.io
     dkohlbre:
       name:         David Kohlbrenner
       title:        UC Berkeley (Postdoc)
       avatar:       team/dkohlbre.png
+      website:      https://dkohlbre.com
     shweta:
       name:         Shweta Shinde
       title:        UC Berkeley (Postdoc)
       avatar:       team/shweta.jpg
+      website:      https://people.eecs.berkeley.edu/~shwetas/
     dawn:
       name:         Dawn Song
       title:        UC Berkeley (Faculty)
       avatar:       team/dawn.png
+      website:      https://people.eecs.berkeley.edu/~dawnsong/
     krste:
       name:         Krste Asanovic
       title:        UC Berkeley (Faculty)
       avatar:       team/krste.png
+      website:      http://people.eecs.berkeley.edu/~krste/
 
 # Social icons displayed in footer
 social:

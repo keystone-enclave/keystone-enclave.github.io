@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Contact
+title: Team
 width: small
 permalink: /contact/
 ---
 
-{% include team.html authors="dayeol, dkohlbre, shweta, dawn, krste" title="Keystone Team" subtitle="" %}
+{% include team.html authors="dayeol, dkohlbre, shweta, dawn, krste" title="" subtitle="" %}

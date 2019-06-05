@@ -26,6 +26,8 @@
 
             <div>
                 <div class="uk-card">
+                    {% if item.website %} <a href="{{ item.website }}"> {% endif %}
+
                     {% if item.avatar %}
                         {% if item.avatar contains 'http' %}
                             {% assign domain = '' %}
@@ -37,6 +39,8 @@
                     {% endif %}
                     <h5 class="uk-margin-remove-bottom uk-margin-top">{{ item.name }}</h5>
                     <p class="uk-article-meta uk-margin-remove-bottom uk-margin-small-top">{{ item.title }}</p>
+
+                    {% if item.website %}</a>{% endif %}
                 </div>
             </div>
         {% endfor %}
