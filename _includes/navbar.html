@@ -3,8 +3,9 @@
         <div class="uk-container">
             <div data-uk-navbar>
                 <div class="uk-navbar-left">
+                  <!--
                     <a class="uk-navbar-item uk-logo uk-visible@m" href="{{ "/" | relative_url }}">{% if site.logo %}<img height=30 width=30 src="{{ site.uploads | relative_url }}{{ site.logo }}" alt="{{ site.title | escape }}">{% else %}{{ site.title | escape }}{% endif %}</a>
-
+                  -->
                     <ul class="uk-navbar-nav uk-visible@m">
                         {% for link in site.data.navigation_header.left %}
                             {% if link.url contains 'http' %}
@@ -56,7 +57,9 @@
                     </ul>
                 </div>
                 <div class="uk-navbar-center uk-hidden@m">
+                  <!--
                     <a class="uk-navbar-item uk-logo" href="{{ "/" | relative_url }}">{% if site.logo %}<img height=30 width=30 src="{{ site.uploads | relative_url }}{{ site.logo }}" alt="{{ site.title | escape }}">{% else %}{{ site.title | escape }}{% endif %}</a>
+                  -->
                 </div>
                 <div class="uk-navbar-right">
                     {% if site.navbar.search %}
