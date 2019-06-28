@@ -23,6 +23,10 @@ right:
     url: https://groups.google.com/forum/#!forum/keystone-enclave-forum
     button: default
 
+  - title: "<span data-uk-icon='icon: bell; ratio: 1.2'></span>&nbsp;Subscribe"
+    url: https://groups.google.com/forum/#!forum/keystone-enclave
+    button: default
+
   - title: "<span data-uk-icon='icon: github; ratio: 1.5'></span>"
     url: https://github.com/keystone-enclave
 

@@ -8,7 +8,7 @@
 
         {% if include.subtitle %}<p class="uk-text-lead uk-text-center">{{ include.subtitle | escape }}</p>{% endif %}
 
-        <div class="uk-margin-medium-top uk-grid-small uk-flex-center uk-text-center uk-margin-medium-top" data-uk-grid>
+        <div class="uk-margin-medium-top uk-grid uk-flex-center uk-text-center" data-uk-grid>
 
         {% if include.authors %}
             {% assign authors = include.authors | split: ", " %}
@@ -25,7 +25,7 @@
             {% endif %}
 
             <div>
-                <div class="uk-card">
+                <div class="uk-card uk-card-small">
                     {% if item.website %} <a href="{{ item.website }}"> {% endif %}
 
                     {% if item.avatar %}

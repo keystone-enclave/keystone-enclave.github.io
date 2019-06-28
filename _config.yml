@@ -35,13 +35,13 @@ author:
 authors:
     dayeol:
       name:         Dayeol Lee
-      title:        UC Berkeley (Ph.D. student)
+      title:        UC Berkeley (Student)
       avatar:       team/dayeol.png
       website:      https://dayeol.github.io
     dkohlbre:
       name:         David Kohlbrenner
       title:        UC Berkeley (Postdoc)
-      avatar:       team/dkohlbre.png
+      avatar:       team/dkohlbre.jpg
       website:      https://dkohlbre.com
     shweta:
       name:         Shweta Shinde
@@ -58,6 +58,14 @@ authors:
       title:        UC Berkeley (Faculty)
       avatar:       team/krste.png
       website:      http://people.eecs.berkeley.edu/~krste/
+    alex:
+      name:         Alex Thomas
+      title:        UC Berkeley (Student)
+      avatar:       team/alex.jpeg
+    stephan:
+      name:         Stephan Kaminsky
+      title:        UC Berkeley (Student)
+      avatar:       team/stephan.jpeg
 
 # Social icons displayed in footer
 social:
