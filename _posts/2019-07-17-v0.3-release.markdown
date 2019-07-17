@@ -1,0 +1,113 @@
+---
+layout: post
+title: Keystone v0.3 
+author: dkohlbre
+description: Keystone is now on v0.3 with new features, plugin systems, and more documentation.
+---
+
+Keystone is now on v0.3 and includes new features, plugins for the SM
+and Eyrie runtime, and updated documentation!
+
+We'll be releasing a series of blogs over the coming weeks covering
+much of the material in the upcoming Keystone paper, keep an eye out
+for them.
+
+## New Features
+
+We've added the ability for executing un-modified RISC-V binaries in
+enclaves with the Eyrie runtime. Standard statically-linked binaries
+can be executed this way! V0.3 supports the previous Keystone-specific
+eapps model as well.
+
+You can now use commonly needed libc features in eapps with our new
+Eyrie plugins. This includes malloc, anonymous mmaps, time, and more.
+
+We have a new set of [build and packaging
+tools](https://docs.keystone-enclave.org/en/latest/Building-Components/Vault.html)
+for writing eapps. This is to simplify the flow of building new eapps
+or porting existing applications to execute as a Keystone enclave.
+
+## Plugins for Eyrie and the Security Monitor
+
+In keeping with our focus on minimal and flexible TCB we've
+implemented the new features as optional plugins in both Eyrie and the
+SM.
+
+Eyrie plugins now include:
+
+ * Free memory management: a simple page-allocator for the Eyrie
+   runtime, allowing it to manage allocations. This plugin allows
+   enclave initialization to setup only minimal page tables, and
+   enables more complex memory management for userspace.
+
+ * Basic syscalls: A selection of simple Linux syscalls for memory
+   management (anonymous mmap and sbrk), time, and other common
+   functions. With this plugin enabled standard glibc malloc can make
+   requests for additional memory from the runtime via standard
+   interfaces. We added this support to allow unmodified benchmarks to
+   run inside of a Keystone enclave.
+
+ * IO syscall proxying: A simple (and unsafe) I/O syscall proxying
+   system to allow an eapp to access read/write/open/etc syscalls on
+   the untrusted host. Standard printf and file I/O operations will
+   work from the eapp with this plugin. This is also where future
+   interfacing for encrypted filesystems will be implemented.
+
+SM plugins now include:
+ * Dynamic enclave resizing: With the cooperation of the Eyrie runtime
+   and host driver, enclaves may be expanded during runtime. The new
+   memory is managed by the free memory plugin in Eyrie. With
+   integration in Eyrie, the enclave can transparently request
+   additional memory when it exhausts its available allocations.
+
+* Cache partitioning for the FU540: A simple cache partitioning scheme
+  for side-channel defense on the FU540 L2 cache.
+
+## New documentation
+
+v0.3 includes a significant update to our documentation and a
+reorganization into Getting Started, User Documentation, and Developer
+Documentation.
+
+If you are using Keystone to build applications you'll be most
+interested in our [Getting
+Started](https://docs.keystone-enclave.org/en/latest/Getting-Started/index.html)
+and the [User
+documentation](https://docs.keystone-enclave.org/en/latest/Keystone-Applications/SDK-Basics.html). Those
+contributing to Keystone itself can look into our growing Developer
+Documentation for internal details.
+
+We have a new
+[Tutorials](https://docs.keystone-enclave.org/en/latest/Getting-Started/Tutorials/index.html)
+section available that will help new users get set up to build
+enclaves to run in Keystone systems. We'll be continuing to add new
+tutorials on more complex uses of Keystone in the future, keep an eye
+on the documentation and blog for more.
+
+## What to watch for
+
+We will continue to add more clear abstractions to the Keystone
+codebase with simplified dependencies. This means you'll be able to
+download and build applications with the SDK without checking out
+QEMU, Linux, and more.
+
+As always, Keystone is
+[open-source](https://github.com/keystone-enclave) and open to
+contributions.
+
+For any questions related to the codebase, feel free to drop an email
+on the [Keystone
+Forum](https://groups.google.com/forum/#!forum/keystone-enclave-forum).
+
+You can subscribe to our [Keystone announcement
+list](https://groups.google.com/forum/#!forum/keystone-enclave) for
+blog announcements and feature updates.
+
+If you are in the Bay Area in July, join us at the [Open-Source
+Enclaves Workshop (OSEW
+2019)](https://keystone-enclave.org/open-source-enclaves-workshop/),
+which will be held at UC Berkeley on July 25th.
+
+Date: July 17th, 2019
+
+
