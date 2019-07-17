@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Keystone v0.3 
+title: Keystone v0.3 Release 
 author: dkohlbre
 description: Keystone is now on v0.3 with new features, plugin systems, and more documentation.
 ---
