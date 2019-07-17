@@ -3,7 +3,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% seo %}
-  <meta property="og:image" content="{% if site.logo contains 'http' %}{{ site.logo }}{% else %}{{ site.uploads | absolute_url }}{{ site.logo }}{% endif %}"/>
+  <html prefix="og: http://ogp.me/ns#">
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:title" content="Keystone" />
+  <meta property="og:description" content="An Open Framework for Architecting Trusted Execution Environments">
+  <meta property="og:image" content="https://keystone-enclave.org/uploads/icon-transparent.png" />
+
   <link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/uploads/favicon/apple-icon-57x57.png">
