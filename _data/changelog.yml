@@ -9,14 +9,14 @@
   - Demand Paging
   - I/O PMP Integration for SoCs
   - Support Google Asylo SDK
-  - Side-Channel Extension
   - Memory Encryption Extension
   - Memory Integrity Extension
 
 - title: Version 0.3
-  label: Upcoming
-  date: "June, 2019 <br/> (Upcoming)"
+  label: ALPHA
+  date: "July, 2019"
   list:
+  - Initial SM/Runtime Plugins
   - seL4 Runtime Running in Keystone
   - Eyrie Runtime Supports I/O System Calls
   - Eyrie Runtime Supports Virtual Memory Management
