@@ -16,8 +16,8 @@ model that Keystone provides.
 # Customizable TEEs
 
 We believe the right way to build Trusted Execution Environments
-(TEEs) is with highly flexible and minimal primitives that present
-clear abstractions. 
+(TEEs) is open-source with highly flexible, and minimal primitives
+that present clear abstractions.
 
 ## Need for Customizable TEEs
 
@@ -43,12 +43,15 @@ for enclave-developers nor extensibility if and when a new hardware
 feature becomes available.  Further, reducing the enclave TCB has been a
 Long-standing objective for all TEE platforms to varying degrees of success.  
 
-To this end, when designing
-Keystone,  we considered  flexibility, customizability, and TCB minimization as
-the main guiding principles. We have developed clear abstractions and a
-modular programming model which made it significantly  easier to realize our
-goals. 
+Finally, serious third-party evaluation of the security of TEEs has
+not been possible with closed-source hardware and microcode
+implementations.
 
+To this end, when designing the open-source Keystone, we considered
+flexibility, customizability, and TCB minimization as the main guiding
+principles. We have developed clear abstractions and a modular
+programming model which made it significantly easier to realize our
+goals and for others to contribute.
 
 ## Defining a Customizable TEE
 
