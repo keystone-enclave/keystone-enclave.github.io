@@ -6,8 +6,6 @@ description: The Keystone paper is now available, along with the first
 entry in a series summarizing it.
 ---
 
-# Paper Release and Understanding the Keystone Model
-
 We're happy to announce the release of the Keystone paper! The
 current version is now available on the Keystone website
 [here](https://keystone-enclave.org/files/keystone_paper_v1.pdf).
