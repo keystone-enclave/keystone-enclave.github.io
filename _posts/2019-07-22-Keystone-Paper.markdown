@@ -2,8 +2,7 @@
 layout: post
 title: Keystone Paper and Customizable TEEs
 author: dkohlbre
-description: The Keystone paper is now available, along with the first
-entry in a series summarizing it.
+description: The Keystone paper is now available, along with the first entry in a series summarizing it.
 ---
 
 We're happy to announce the release of the Keystone paper! The
