@@ -1,8 +1,8 @@
 # Video include content
-- title: Technical Paper (arXiv)
-  desc: Keystone: a Framework for Architecting TEEs
-  url: https://arxiv.org/abs/1907.10119
-  icon: file-pdf
+- title: Technical Paper 2019 (arXiv)
+  desc: "Keystone: a Framework for Architecting TEEs"
+  url: "https://arxiv.org/abs/1907.10119"
+  icon: link
 
 - title: RISC-V Summit 2018 (Talk)
   desc: Dayeol explains the first release of Keystone
