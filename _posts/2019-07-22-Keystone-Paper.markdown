@@ -7,7 +7,7 @@ description: The Keystone paper is now available, along with the first entry in 
 
 We're happy to announce the release of the Keystone paper! The
 current version is now available on the Keystone website
-[here](https://keystone-enclave.org/files/keystone_paper_v1.pdf).
+[here](https://arxiv.org/abs/1907.10119).
 
 We'll be running a multi-part blog series covering different aspects
 of the paper. The first installment will cover the _customizable TEE_
