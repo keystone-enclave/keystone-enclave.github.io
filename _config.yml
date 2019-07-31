@@ -117,6 +117,27 @@ twitter:
   username: keystoneenclave
   card: summary
 
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+    values:
+      image: https://keystone-enclave.org/uploads/icon-transparent.png
+  - scope:
+      path:         ""
+      type:         posts
+    values:
+      layout:       post
+      image: https://keystone-enclave.org/uploads/icon-transparent.png 
+  #_docs
+  - scope:
+      path:         ""
+      type:         docs
+    values:
+      layout:       doc
+      image: https://keystone-enclave.org/uploads/icon-transparent.png
+
 gems:
   - jekyll-feed
   - jekyll-seo-tag
@@ -138,24 +159,4 @@ collections:
   changelogs:
     output:         false
 
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-    values:
-      image: https://keystone-enclave.org/uploads/icon-transparent.png
-      
-#  - scope:
-#      #path:         ""
-#      type:         posts
-#    values:
-#      layout:       post
-#      image: https://keystone-enclave.org/uploads/icon-transparent.png 
-  # _docs
-  #  - scope:
-  #    path:         ""
-  #      type:         docs
-  #    values:
-  #      layout:       doc
-  #      image: https://keystone-enclave.org/uploads/icon-transparent.png
+
