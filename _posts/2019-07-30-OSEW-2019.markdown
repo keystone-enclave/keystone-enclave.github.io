@@ -22,7 +22,7 @@ than 150+ registrations from 14 countries from all over the world,
 over 120 attendees participated in the workshop.
 
 
-![Group Photo](https://keystone-enclave.org/files/OSEW19_Group.jpg)
+[![Group Photo](https://keystone-enclave.org/files/OSEW_Group_scaled.jpg)](https://keystone-enclave.org/files/OSEW19_Group.jpg)
 
 Our predictiction is that “In the next 10 years, most chips will have
 secure enclave capability”. As one of the first key steps towards
