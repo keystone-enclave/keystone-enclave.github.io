@@ -1,7 +1,9 @@
 ---
 layout: post
 title: OSEW 2019
-author: shweta
+author: 
+ - shweta
+ - dkohlbre
 description: Summary of the Open-Source Enclaves Workshop on July 25th 2019
 ---
 
@@ -72,9 +74,9 @@ about their approach to Rust SDKs for enclaves on SGX.
 ## Verification
 
 Verification was another recurring topic which came up in various
-presentations and Q&A sessions. A couple of [talks from UC
-Berkeley](https://www.youtube.com/watch?v=vWekd4qMsto,
-https://www.youtube.com/watch?v=qNYf78zkWdI) and one from
+presentations and Q&A sessions. A [couple of 
+talks](https://www.youtube.com/watch?v=vWekd4qMsto) 
+[from UC Berkeley](https://www.youtube.com/watch?v=qNYf78zkWdI) and one from
 [UW](https://keystone-enclave.org/open-source-enclaves-workshop/slides/OSEW19_LukeNelson_UW.pdf)
 show-cased new verification tools and techniques for TEEs in general
 and covered targeted efforts tailored for RISC-V platforms. Given the
@@ -99,6 +101,7 @@ side-channel threats known to Intel’s SGX and AMD’s SEV.
 There were many other interesting talks from industry speakers
 including [HTC](https://www.youtube.com/watch?v=LK5WTOwf2A0),
 [Google](https://www.youtube.com/watch?v=ph-zDajG-9Y),
+[Google](https://www.youtube.com/watch?v=TlHlb0zR0zg),
 [ARM](https://www.youtube.com/watch?v=IgWcL4ztW1I), [Oasis
 Labs](https://www.youtube.com/watch?v=IFOp1mdCbHM),
 [Anjuna](https://www.youtube.com/watch?v=fSn8nIy0eD0),
