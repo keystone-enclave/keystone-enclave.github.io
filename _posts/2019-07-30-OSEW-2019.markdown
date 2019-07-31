@@ -1,9 +1,7 @@
 ---
 layout: post
 title: OSEW 2019
-author: 
- - shweta
- - dkohlbre
+author: shweta
 description: Summary of the Open-Source Enclaves Workshop on July 25th 2019
 ---
 
@@ -145,8 +143,12 @@ is to embrace this fact, have mitigations in place to handle and patch
 failures gracefully, learn from the failures, and address them in the
 best way possible.
 
+# Thanks to everyone who made this possible
+
 A big thank you to our sponsors Western Digital and Seagate for their
 support, a shout-out to our admins Tami and Ria from the ADEPT lab for
 all the hard work and help in organizing the workshop, and cheers to
 all our attendees and speakers who made OSEW’19 a successful event
 with their active participation.
+
+![OSEW Participants from across the world](https://keystone-enclave.org/files/OSEW19_Participants.png)
