@@ -1,0 +1,150 @@
+---
+layout: post
+title: OSEW 2019
+author: shweta
+author: dkohlbre
+description: Summary of the Open-Source Enclaves Workshop on July 25th 2019
+---
+
+We had a fantastic [Open-Source Enclaves
+Workshop](https://keystone-enclave.org/open-source-enclaves-workshop/)
+(OSEW 2019) last week (July 25th) at UC Berkeley hosted by the
+Keystone team. OSEW aims to bring the architecture and
+systems-security community together to make progress towards building
+open-source, secure, performant enclaves. This year, we discussed the
+different threat models, the components for secure enclaves, best
+practices and state-of-the-art techniques for each component, and open
+problems in this space.
+
+OSEW 2019 featured 25 talks from 23 organizations across academia and
+industry as well as an in-depth industry discussion panel. After more
+than 150+ registrations from 14 countries from all over the world,
+over 120 attendees participated in the workshop.
+
+
+![Group Photo](https://keystone-enclave.org/files/OSEW19_Group.jpg)
+
+Our predictiction is that “In the next 10 years, most chips will have
+secure enclave capability”. As one of the first key steps towards
+safer and open enclaves, we
+[announced](https://www.youtube.com/watch?v=Y3etcxOzZXU) the start of
+the Trustworthy Secure Enclaves Alliance; a partnership of different
+entities in the secure hardware and software space to help distribute
+trust in future platforms. Our aim with this effort is to be better
+prepared for the surge of secure enclave capabilities and to
+gracefully embrace the future TEEs, while doing all of it as a
+community. You can read more about our plans in the [draft
+charter](https://docs.google.com/document/d/1Njd3ftyQJFzzZpoSX0mD4sHTyTy4myXZFsdjWYI7WDg/edit?usp=sharing).
+
+
+# Talk Highlights
+
+## Keystone
+
+Dayeol’s [update
+talk](https://www.youtube.com/watch?v=HoERuxbcci4) on the Keystone
+project, an effort towards building a fully open-source framework for
+trusted execution environments (TEEs) based on hardware enclaves. The
+talk introduced "customizable TEEs", a new model for building TEEs,
+where one can compose various building blocks of TEEs depending on the
+threat models or the use cases. It also explained how Keystone is
+designed with RISC-V to implement minimal hardware-enforced isolation
+and showcased modular plugins built on top of it. Checkout the full
+[Keystone paper](https://arxiv.org/abs/1907.10119) and our open source
+[code](https://github.com/keystone-enclave).
+
+
+##  RISC-V, TEEs, and Rust
+
+Ahmad-Reza Sadeghi from TU Darmstadt gave an excellent witty talk on
+hardware bugs, finding bugs with competitions, and a very useful
+categorization of various TEE solutions. Cesare Garlati from Hex-Five
+Security gave an engaging talk on [multi zone
+enclave](https://www.youtube.com/watch?v=c1EhF87la68) using RISC-V.
+
+A recurring theme of the workshop was how to make the code run in
+enclaves safer regardless of the specific TEE. [Mingshen
+Sun](https://www.youtube.com/watch?v=NJuiOb8HJ9A) from Baidu X-Lab
+discussed their efforts on bringing Rust support to Keystone, as well
+as their general Mesa TEE platform. Similarly, we heard from [Jethro
+Beekman](https://www.youtube.com/watch?v=hqeRQ5-_ALk) of Fortanix
+about their approach to Rust SDKs for enclaves on SGX.
+
+## Verification
+
+Verification was another recurring topic which came up in various
+presentations and Q&A sessions. A couple of [talks from UC
+Berkeley](https://www.youtube.com/watch?v=vWekd4qMsto,
+https://www.youtube.com/watch?v=qNYf78zkWdI) and one from
+[UW](https://keystone-enclave.org/open-source-enclaves-workshop/slides/OSEW19_LukeNelson_UW.pdf)
+show-cased new verification tools and techniques for TEEs in general
+and covered targeted efforts tailored for RISC-V platforms. Given the
+importance of verification and amazing on-going work, this area of
+research is emerging as an exciting space to watch out for.
+
+## Side-channels and Speculation
+
+Another contemporary and timely topic was on side-channel attacks and
+defenses, with a pair of talks [Chris
+Fletcher](https://www.youtube.com/watch?v=GXQSGUjLab4) and [Josep
+Torrellas](https://www.youtube.com/watch?v=b4Z71M2-W8U) of UIUC on
+defenses for speculative attacks like Spectre. General
+compiler-assisted tooling for these defenses are a welcome addition to
+any sensitive program, especially since enclaves operate with an
+attacker controlling everything needed for Spectre-family attacks. As
+a wrap-up to the topic, [Yinqian
+Zhang](https://www.youtube.com/watch?v=sSYGzf9xAmA) from The Ohio
+State University gave an excellent overview of the variety of
+side-channel threats known to Intel’s SGX and AMD’s SEV.
+
+There were many other interesting talks from industry speakers
+including [HTC](https://www.youtube.com/watch?v=LK5WTOwf2A0),
+[Google](https://www.youtube.com/watch?v=ph-zDajG-9Y),
+[ARM](https://www.youtube.com/watch?v=IgWcL4ztW1I), Oasis
+Labs](https://www.youtube.com/watch?v=IFOp1mdCbHM),
+[Anjuna](https://www.youtube.com/watch?v=fSn8nIy0eD0),
+[Fortanix](https://www.youtube.com/watch?v=hqeRQ5-_ALk), [Visa
+Research](https://www.youtube.com/watch?v=fq4e9U6HxIA), and
+[PlatON](https://www.youtube.com/watch?v=twqQ1OOLo10).
+
+# Panel Discussion
+
+Finally, we had a [panel
+discussion](https://www.youtube.com/watch?v=nUos-CohJ6c) where panel
+members engaged in an open discussion on various pressing questions of
+security of emerging TEEs. We were fortunate to have Paul Chou (Senior
+Director of Platform Security at Nvidia), Paul Kocher (Independent
+Security Researcher and Entrepreneur), Justin Lin (Security Architect
+at HTC), Frank McKeen (Sr. Principal Engineer at Intel Labs), and
+Satyam Srivastava (Senior Deep Learning Engineer at Intel) as our
+panel members. Thanks to Krste Asanović for moderating the discussion.
+
+To kick start the discussion, each panel member spoke briefly about
+what worries them the most right now. Side-channel vulnerabilities,
+taking the TEE conversation beyond CPUs, and things being binary in
+our minds when security is a probabilistic thing were the highlights
+of everyone’s concerns. Then they discussed why a lot of known best
+practices aren't being implemented and how we can solve known problems
+before we solve new issues. The discussion circled around this being
+mostly an economic problem governed by incentive. Prompted by a
+question from the audience, panel members discussed the possibility of
+introducing security levels for software as is being done for
+self-driving cars. They noted that compliance to regulation is more of
+a passing criterion than a differentiator when it comes to
+security. Next, the members expressed their vision for the right model
+for enclave-capable accelerators and how to extend CPU TEE to these
+emerging class of devices. The unanimous response was that it will be
+highly dictated by the use-case. Lastly, panel members discussed
+corner-case scenarios such as the response to a secure boot failure,
+where real-world decisions post-failure are unclear. The discussion
+ended on a positive note that security failures are inevitable and
+we're not going to get things right the first time. The only recourse
+is to embrace this fact, have mitigations in place to handle and patch
+failures gracefully, learn from the failures, and address them in the
+best way possible.
+
+A big thank you to our sponsors Western Digital and Seagate for their
+support, a shout-out to our admins Tami and Ria from the ADEPT lab for
+all the hard work and help in organizing the workshop, and cheers to
+all our attendees and speakers who made OSEW’19 a successful event
+with their active participation.
