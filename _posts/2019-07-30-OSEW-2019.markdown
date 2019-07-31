@@ -1,7 +1,7 @@
 ---
 layout: post
 title: OSEW 2019
-image: https://keystone-enclave.org/files/OSEW19_Group.jpg
+image: https://keystone-enclave.org/files/OSEW_Group_small.jpg
 authors: [shweta, dkohlbre]
 description: Summary of the Open-Source Enclaves Workshop on July 25th 2019
 ---
