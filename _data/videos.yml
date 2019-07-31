@@ -3,6 +3,16 @@
   desc: "Keystone: a Framework for Architecting TEEs"
   url: "https://arxiv.org/abs/1907.10119"
   icon: link
+ 
+- title: OSEW 2019 (Talk)
+  desc: Keystone talk at the open-source enclaves workshop
+  url: "https://www.youtube.com/watch?v=HoERuxbcci4"
+  icon: youtube
+
+- title: OSEW 2019 (Slides)
+  desc: Keystone talk at the open-source enclaves workshop (slides)
+  url: "https://keystone-enclave.org/open-source-enclaves-workshop/slides/OSEW19_DayeolLee_UCBerkeley.pdf"
+  icon: file-pdf
 
 - title: RISC-V Summit 2018 (Talk)
   desc: Dayeol explains the first release of Keystone
