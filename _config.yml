@@ -145,16 +145,17 @@ defaults:
       path: ""
     values:
       image: https://keystone-enclave.org/uploads/icon-transparent.png
-  - scope:
-      path:         ""
-      type:         posts
-    values:
-      layout:       post
-      image: https://keystone-enclave.org/uploads/icon-transparent.png 
+      
+#  - scope:
+#      #path:         ""
+#      type:         posts
+#    values:
+#      layout:       post
+#      image: https://keystone-enclave.org/uploads/icon-transparent.png 
   # _docs
-  - scope:
-      path:         ""
-      type:         docs
-    values:
-      layout:       doc
-      image: https://keystone-enclave.org/uploads/icon-transparent.png
+  #  - scope:
+  #    path:         ""
+  #      type:         docs
+  #    values:
+  #      layout:       doc
+  #      image: https://keystone-enclave.org/uploads/icon-transparent.png
