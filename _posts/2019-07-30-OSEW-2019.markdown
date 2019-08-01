@@ -33,9 +33,7 @@ entities in the secure hardware and software space to help distribute
 trust in future platforms. Our aim with this effort is to be better
 prepared for the surge of secure enclave capabilities and to
 gracefully embrace the future TEEs, while doing all of it as a
-community. You can read more about our plans in the [draft
-charter](https://docs.google.com/document/d/1Njd3ftyQJFzzZpoSX0mD4sHTyTy4myXZFsdjWYI7WDg/edit?usp=sharing).
-
+community. More details will be coming soon.
 
 # Talk Highlights
 
