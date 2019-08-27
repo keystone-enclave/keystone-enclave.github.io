@@ -18,5 +18,7 @@ hero:
 -->
 {% include faqs.html multiple="true" title="FAQ" %}
 
+{% include workshops.html columns="2" title="Workshops" %}
+
 {% include videos.html columns="3" title="Talks and Papers" %}
 
