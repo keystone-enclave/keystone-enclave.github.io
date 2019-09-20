@@ -1,6 +1,6 @@
 ---
 layout: page
-width: expand
+width: small
 hero:
     title:
     subtitle: An Open Framework for Architecting Trusted Execution Environments

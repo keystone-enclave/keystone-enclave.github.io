@@ -1,5 +1,5 @@
 ---
-title: How can I cite Keystone Enclave?
+title: How do I cite the project?
 categories: [presale]
 ---
 
