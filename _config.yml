@@ -66,6 +66,10 @@ authors:
       name:         Stephan Kaminsky
       title:        UC Berkeley (Student)
       avatar:       team/stephan.jpeg
+    gui:
+      name:         Gui Andrade
+      title:        UC Berkeley (Student)
+      avatar:       team/gui.jpg
 
 # Social icons displayed in footer
 social:
