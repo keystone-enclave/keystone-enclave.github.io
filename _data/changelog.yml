@@ -6,11 +6,18 @@
   list:
   - RV32 M/U-only Systems
   - Concurrent Multithreading
-  - Demand Paging
   - I/O PMP Integration for SoCs
-  - Support Google Asylo SDK
-  - Memory Encryption Extension
-  - Memory Integrity Extension
+  - Agile Formal Verification (Experimental)
+
+- title: Version 0.4
+  label: ALPHA
+  date: "(Coming)"
+  list:
+  - Rust Implementation (Experimental)
+  - Simple Demand Paging Extension
+  - Denial of Service Protection
+  - Upstream Bump for Linux, Buildroot, and QEMU
+  - Switch to CMake Build System
 
 - title: Version 0.3
   label: ALPHA
