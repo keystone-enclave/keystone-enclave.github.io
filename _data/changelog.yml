@@ -11,7 +11,7 @@
 
 - title: Version 0.4
   label: ALPHA
-  date: "(Coming)"
+  date: "Mar, 2020"
   list:
   - Rust Implementation (Experimental)
   - Simple Demand Paging Extension
