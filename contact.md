@@ -5,4 +5,4 @@ width: small
 permalink: /contact/
 ---
 
-{% include team.html authors="dayeol, dkohlbre, shweta, dawn, krste, alex, stephan, gui" title="" subtitle="" %}
+{% include team.html authors="dayeol, dkohlbre, shweta, dawn, krste, alex, stephan, gui, cathy" title="" subtitle="" %}

@@ -70,6 +70,10 @@ authors:
       name:         Gui Andrade
       title:        UC Berkeley (Student)
       avatar:       team/gui.jpg
+    cathy:
+      name:         Catherine Lu
+      title:        UC Berkeley (Student)
+      avatar:       team/cathylu.png
 
 # Social icons displayed in footer
 social:
