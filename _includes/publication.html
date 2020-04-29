@@ -1,0 +1,62 @@
+{% if include.columns %}
+    {% assign columns = include.columns %}
+    {% if columns == '1' %}
+        {% assign container = ' uk-container-small' %}
+    {% elsif columns == '2' %}
+        {% assign container = ' uk-container-small' %}
+    {% else %}
+        {% assign container = '' %}
+    {% endif %}
+{% else %}
+    {% assign columns = 3 %}
+    {% assign container = '' %}
+{% endif %}
+
+<div class="uk-section section-publication">
+    <div class="uk-container{{container}}">
+
+        {% if include.title %}
+            <h2 class="uk-h1 uk-text-center">{{ include.title }}</h2>
+        {% endif %}
+
+        {% if include.subtitle %}<p class="uk-text-lead uk-text-center">{{ include.subtitle | escape }}</p>{% endif %}
+
+        <div class="uk-child-width-1-{{ columns }}@m uk-grid-match uk-text-left uk-margin-medium-top" data-uk-grid>
+        {% for item in site.data.publications %}
+            <div>
+                <div class="uk-card uk-card-small uk-card-default uk-box-shadow-small uk-card-body uk-inline border-radius-large border-xlight">
+                    <h3 class="uk-card-title uk-margin">{{ item.title }}</h3>
+										<div class="uk-card-badge">
+											{% if item.bib %}
+											<a href="{{ item.bib }}" target="_blank">
+												<span uk-tooltip="BibTex" data-uk-icon="icon: quote-right; ratio: 1.5"></span>
+											</a>
+											{% endif %}
+											{% if item.paper %}
+											<a href="{{ item.paper }}" target="_blank">
+											  <span uk-tooltip="Paper" data-uk-icon="icon: file-pdf;
+													ratio: 1.5"></span>
+											</a>
+											{% endif %}
+											{% if item.video %}
+											<a href="{{ item.video }}" target="_blank">
+											  <span uk-tooltip="Video" data-uk-icon="icon: youtube; ratio: 1.5"></span>
+											</a>
+											{% endif %}
+											{% if item.slides %}
+											<a href="{{ item.slides }}" target="_blank">
+											  <span uk-tooltip="Slides" data-uk-icon="icon: album; ratio: 1.5"></span>
+											</a>
+											{% endif %}
+										</div>
+                    {% if item.desc %}
+                    <p>{{ item.desc }}</p>
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+
+    </div>
+</div>
+

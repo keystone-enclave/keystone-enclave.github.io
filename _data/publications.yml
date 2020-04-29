@@ -1,0 +1,22 @@
+# Video include content
+- title: EuroSys 2020
+  desc: "D. Lee et al., Keystone: an Open Framework for Architecting Trusted Execution Environments, EuroSys'20"
+  paper: https://dl.acm.org/doi/abs/10.1145/3342195.3387532
+  video: "https://youtu.be/S8MmKBCoPSg"
+  slides: "https://www.eurosys2020.org/wp-content/uploads/2020/04/slides/233_lee_slides.pdf"
+  bib: "files/keystone.bib"
+
+- title: OSEW 2019
+  desc: Keystone Talk at the Open-Source Enclaves Workshop
+  video: "https://www.youtube.com/watch?v=HoERuxbcci4"
+  slides: "https://keystone-enclave.org/open-source-enclaves-workshop/slides/OSEW19_DayeolLee_UCBerkeley.pdf"
+
+- title: RISC-V Summit 2018
+  desc: Dayeol explains the first release of Keystone
+  video: https://youtu.be/lQu95We1Lmc
+  slides: files/keystone-risc-v-summit.pdf
+
+- title: ASPLOS 2018 - NSF Workshop
+  desc: Dawn gives a keynote about the open-source secure enclave
+  slides: files/dawn-nsf-2018-v5.pdf
+  icon: file-pdf

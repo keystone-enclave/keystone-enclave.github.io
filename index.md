@@ -18,7 +18,9 @@ hero:
 -->
 {% include faqs.html multiple="true" title="FAQ" %}
 
-{% include workshops.html columns="2" title="Workshops" %}
+{% include publication.html columns="1" title="Talks and Papers" %}
 
-{% include videos.html columns="3" title="Talks and Papers" %}
+<!--{% include videos.html columns="3" title="Talks and Papers" %}-->
+
+{% include workshops.html columns="2" title="Workshops" %}
 

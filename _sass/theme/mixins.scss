@@ -221,6 +221,13 @@
     > span {
         color: $global-primary-background;
     }
+		> .uk-card-badge > a > span {
+				padding-left:10px;
+        color: $global-primary-background;
+		}
+		> .uk-card-badge > a:hover {
+			  text-decoration: none;
+		}
 }
 
 @mixin hook-card-misc(){
