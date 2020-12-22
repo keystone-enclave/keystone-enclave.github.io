@@ -35,44 +35,44 @@ author:
 authors:
     dayeol:
       name:         Dayeol Lee
-      title:        UC Berkeley (Student)
+      title:        UC Berkeley
       avatar:       team/dayeol.png
       website:      https://dayeol.github.io
     dkohlbre:
       name:         David Kohlbrenner
-      title:        UC Berkeley (Postdoc)
+      title:        University of Washington 
       avatar:       team/dkohlbre.jpg
       website:      https://dkohlbre.com
     shweta:
       name:         Shweta Shinde
-      title:        UC Berkeley (Postdoc)
+      title:        ETH Zurich
       avatar:       team/shweta.jpg
-      website:      https://people.eecs.berkeley.edu/~shwetas/
+      website:      https://n.ethz.ch/~sshivaji/
     dawn:
       name:         Dawn Song
-      title:        UC Berkeley (Faculty)
+      title:        UC Berkeley
       avatar:       team/dawn.png
       website:      https://people.eecs.berkeley.edu/~dawnsong/
     krste:
       name:         Krste Asanovic
-      title:        UC Berkeley (Faculty)
+      title:        UC Berkeley 
       avatar:       team/krste.png
       website:      http://people.eecs.berkeley.edu/~krste/
     alex:
       name:         Alex Thomas
-      title:        UC Berkeley (Student)
+      title:        UC Berkeley
       avatar:       team/alex.jpeg
     stephan:
       name:         Stephan Kaminsky
-      title:        UC Berkeley (Student)
+      title:        UC Berkeley
       avatar:       team/stephan.jpeg
     gui:
       name:         Gui Andrade
-      title:        UC Berkeley (Student)
+      title:        UC Berkeley
       avatar:       team/gui.jpg
     cathy:
       name:         Catherine Lu
-      title:        UC Berkeley (Student)
+      title:        UC Berkeley
       avatar:       team/cathylu.png
 
 # Social icons displayed in footer
