@@ -1,0 +1,57 @@
+<div class="uk-section">
+	<div class="uk-container uk-container-small">
+		<h2 class="uk-h1 uk-text-center">Contributors</h2>
+		<p class="uk-text-center uk-text-lead">
+		Contributors to the <a href="https://github.com/keystone-enclave">project repositories</a>
+		</p>
+		<div class="uk-margin-top" id="contributors"></div>
+	</div>
+</div>
+<script>
+
+jQuery(function() {
+	var contributors = {};
+	var repos = ["keystone", "sm", "keystone-sdk", "keystone-runtime", "linux-keystone-driver"]
+
+	for (i in repos) {
+		$.getJSON(
+			"https://api.github.com/repos/keystone-enclave/"+repos[i]+"/contributors",
+			function(data) {
+				$.each(data, function(i, item) {
+					if (item.login in contributors) {
+						contributors[item.login].contributions += item.contributions
+					} else {
+						contributors[item.login] = { 
+							'login': item.login,
+							'avatar_url': item.avatar_url, 
+							'html_url' : item.html_url,
+							'contributions': item.contributions }
+					}
+				})
+			}
+		)
+	}
+
+	function ObjToAvatarStr(obj) {
+		str = '<a class="uk-transition-toggle" uk-tooltip="'+obj.login+'" href='+ obj.html_url +'>'
+		str += '<img width="70" height="70"'
+		str += 'class="uk-border-circle uk-margin-small-top uk-margin-small-left'
+		str += ' uk-transition-opaque uk-transition-scale-up"'
+		str += 'src=' + obj.avatar_url + '></a>'
+		return str
+	}
+
+	$(document).ajaxStop(function() {
+		function sortByContribution(a, b) {
+			return ((a.contributions > b.contributions) ? -1 : ((a.contributions < b.contributions) ? 1 : 0));
+		}
+		// merge all contributor lists
+		contributorArray = Object.keys(contributors).map(i => contributors[i])
+		contributorArray.sort(sortByContribution);
+
+		for (i in contributorArray) {
+			$("#contributors").append( ObjToAvatarStr(contributorArray[i]) )
+		}
+	});
+})
+</script>

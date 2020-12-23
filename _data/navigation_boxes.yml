@@ -1,21 +1,13 @@
 # Boxes include navigation
 
-- title: GitHub
-  desc: Check out the code!
-  icon: github
-  url: "https://github.com/keystone-enclave"
-
-- title: Documentation
-  desc: Documentation for Keystone Users
+- title: Getting Started
+  desc: How to try Keystone Enclave?
   icon: file-text
-  url: "https://docs.keystone-enclave.org"
+  url: "http://docs.keystone-enclave.org/en/latest/Getting-Started/index.html"
 
-- title: Forum
-  desc: Subscribe to ask questions or get updates!
-  icon: question
-  url: "https://groups.google.com/forum/#!forum/keystone-enclave-forum"
+- title: Contribute
+  desc: Check out the open projects!
+  icon: github
+  url: "https://github.com/orgs/keystone-enclave/projects"
 
-- title: Twitter
-  desc: Subscribe us on twitter to get updates
-  icon: twitter
-  url: "https://twitter.com/KeystoneEnclave"
+

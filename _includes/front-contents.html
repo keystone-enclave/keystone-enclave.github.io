@@ -1,0 +1,11 @@
+<div class="uk-section">
+    <div class="uk-container uk-container-small">
+        
+			{% assign faqs = site.faqs %}
+
+      {% for faq in faqs %}
+     		<h2 class="uk-h1 uk-text-center">{{ faq.title }}</h2>
+				<p>{{ faq.content }}</p> 
+      {% endfor %}
+    </div>
+</div>

@@ -7,12 +7,6 @@ left:
   - title: Blog
     url: /blog/
 
-  - title: Roadmap
-    url: /roadmap/
-
-  - title: Team
-    url: /contact/
-
 # Navbar right menu navigation links
 right:
   - title: "<span data-uk-icon='icon: file-text; ratio: 1.2'></span>&nbsp;Docs"
