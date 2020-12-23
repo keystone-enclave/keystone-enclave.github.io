@@ -100,7 +100,7 @@ share:
 
 # Default footer image settings
 footer:
-  copyright:      © 2019 Keystone Enclave. Powered by Jekyll and <a href="https://jekyllthemes.io/theme/docs-responsive-documentation-or-manual-jekyll-theme">Docs</a>
+  copyright:      © 2021 Keystone Enclave. Powered by Jekyll and <a href="https://jekyllthemes.io/theme/docs-responsive-documentation-or-manual-jekyll-theme">Docs</a>
 # Disqus comments shortname, requires Disqus account https://disqus.com/
 disqus:
     shortname:      # 1234
